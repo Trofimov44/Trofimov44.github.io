@@ -64,6 +64,11 @@ margin: 0px 10px;
     flex-direction: row;
 	padding: 13;
 }
+
+.icon_ssd a {
+	margin: 12
+}
+
 /*это типо для меню*/
 .menu_conteiner{
   background-color: black;
