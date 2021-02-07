@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    background-color: #FFFFDD;
+}
+
+/*мастер по ремонту*/
+.header_container {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 7vw;
+    background-size: cover;
+    color: #FFFFFF;
+    color: #000000;
+}
+
+/*верхние кнопки*/
+.menu_conteiner{
+    background-color: #000000;
+    padding: 6;
+
+}
+.menu_conteiner ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_conteiner a {
+    color: #FFFFDD;
+    text-decoration: none;
+    margin: 12;
+    padding: 18;
+}
+
+.menu_conteiner a:hover {
+    outline:4px solid #FFFFDD;
+}
+
+/*некачественно и дорого*/
+.header_text2 {
+    font-size: 2vw
+
+}
+
+
+
+/* яндекс карты*/
+#map_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 7vw;
+    background-size: cover;
+    color: #FFFFFF;
+    color: #000000;
+    padding-left: 12vw;
+    padding-right: 12vw;
+}
+
+.about_company{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    color: #FFFFFF;
+    color: #000000;
+    font-size: 2vw;
+    padding-top: 10vw;
+    padding-bottom: 15vw;
+    margin-right: 15vw;
+    margin-left: 15vw;
+
+}
+
+
+
+
+
+.company_text{
+    font-size: 5vw;
+}
+
+
+.Contact_Information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    font-size: 5vw;
+    background-size: cover;
+    padding-top: 10vw;
+
+
+
+}
+
+
+.Contact_Information_da {
+    display: flex;
+    font-size: 3vw;
+    text-decoration: none;
+
+}
+
+.Contact_Information_da a {
+    text-decoration: none;
+    color: #FFFFDD;
+    background-color: #000000;
+    border-radius:20px;
+    padding: 5;
+
+
+
+}
+
+.Contact_Information_ne{
+    margin: 0.5vw;
+
+}
+
+
+.Social_network{
+    display: flex;
+    font-size: 3vw;
+
+}
+
+
+.Social_network_ne{
+    background-color: #000000;
+    border-radius:20px;
+    padding: 8;
+    padding-bottom: 0;
+    margin: 15;
+}
+
+
+@media (max-width: 700px) {
+  .menu_conteiner ul {
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+@media (max-width: 700px) {
+  .menu_conteiner li {
+    flex-direction: column;
+    margin: 2vw; 
+
+}
