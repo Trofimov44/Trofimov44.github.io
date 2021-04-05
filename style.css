@@ -1,0 +1,280 @@
+body{
+	margin: 0;
+	}
+
+/*меню*/
+.menu_conteiner{
+	display: flex;
+	justify-content: flex-end;
+	background-color: #2E323F;
+	padding-right: 5vw;
+}
+.menu_conteiner a {
+	font-family: 'Oswald', sans-serif;
+	margin: 1.2vw;
+	font-size: 16px;
+	color: #FFFFFF;
+	text-decoration: none;
+	border-radius:100px;
+	border-color: #A59678;
+}
+
+.menu_button_signup{
+	border-radius:100px;
+	background-color: #A59678;
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+
+.header{
+	padding-left: 4vw;
+	padding-right: 4vw;
+	align-items: center;
+	display: flex;
+	background-color: #3B4050;
+	height: 100vh;
+	color: #FFFFFF;
+}
+
+
+h1 {
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+	color: #FFFFFF;
+	font-size: 90px;
+	line-height: 1.2;
+}
+
+h1 a {
+	color: #A59678;
+}
+
+.lorem p {
+	font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.i_want_to_learn {
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	border-radius:100px;
+	background-color: #A59678;
+	padding-left: 2vw;
+	padding-right: 2vw;
+
+}
+
+.header_2{
+	padding-right: 2vw;
+	padding-top: 16vw;
+}
+
+.header_2 a{
+	text-decoration: none;
+	color:#FFFFFF;
+}
+
+
+
+
+.poloska{
+	display: flex;
+	background-color: #F1F1F1;
+}
+
+.poloska_1{
+	padding-right: 5rem;
+	padding-left: 5rem;
+	margin-top: 6rem;
+	margin-bottom: 6rem;
+	text-align: center;
+
+
+}
+
+.poloska_1 h2{
+	font-size: 30px;
+	color: #A59678;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+.poloska_1 a{
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+
+.thing_6_7{
+	margin-right: 5rem;
+	margin-left: 5rem;
+	display: flex;
+
+}
+
+
+.img_6_7{
+	max-width: 100%;
+}
+
+
+
+.thing_6_7_1{
+	padding-right: 15rem;
+	display: block;
+}
+
+.thing_6_7_1 h4{
+	font-family: 'Oswald', sans-serif;
+	color: #A59678;
+	font-size: 36px;
+}
+
+
+.thing_6_7_1 a {
+	font-size: 21px;
+}
+
+
+.thing_6_7_1 p {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.thing_6_7_2{
+	color: #FFFFFF;
+}
+
+
+.thing_6_7_2 div{
+	padding:1rem;
+	margin-top: 2rem;
+	background-color: #3B4050;
+	text-align: center;
+}
+
+.thing_6_7_2 h3{
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+}
+
+.thing_6_7_2 p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	color: #F1F1F1;
+}
+
+
+.ww{
+	color: #3B4050;
+}
+
+
+
+.interpreter{
+	padding: 3vw;
+	background-color: #3B4050;
+}
+
+.interpreter_2{
+	display: flex;
+}
+
+.interpreter_d{
+	padding-left: 2.5rem;
+	font-size: 21px;
+	font-family: 'Oswald', sans-serif;
+	color: #A59678;
+}
+
+.interpreter_z{
+	display: block;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 3.5rem;
+	color: #FFFFFF;
+}
+
+.interpreter_g{
+	margin-right: 7vw;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	color: #FFFFFF;
+}
+
+
+.interpreter_3{
+	margin-right:3rem; 
+}
+
+
+.interpreter_g li{
+	margin-right: 2vw;
+	padding-bottom:1vw; 
+	list-style: none;
+}
+
+.interpreter_g a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.interpreter_t{
+	font-size: 21px;
+	font-family: 'Oswald', sans-serif;
+	color: #A59678;
+}
+
+@media (max-width: 800px) {
+  .poloska {
+  	flex-direction: column;
+  	}
+
+  	.thing_6_7 {
+  	display: block;
+  	}
+
+  	.thing_6_7_1 {
+  	padding-right: 0rem;
+  	}
+
+  	.thing_6_7_2 {
+  	padding-bottom: 5rem;
+  	}
+
+  	.header{
+  		flex-direction: column;
+  	}
+
+  	h1 {
+	font-size: 50px;
+	margin-top: 13vw;
+	}
+
+	.lorem p {
+	font-size: 18px;
+	padding-left: 0vw;
+	}
+
+
+	.interpreter_3 {
+	margin-right: 0rem;
+	}
+
+	.interpreter_2{
+	flex-direction: column;
+	}
+
+	.menu_conteiner {
+    justify-content: space-around;
+    padding-right: 0vw;
+	}
+
+	.poloska_1 {
+    margin-top: 0rem;
+	}
+
+}
